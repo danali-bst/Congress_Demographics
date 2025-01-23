@@ -2,7 +2,7 @@
 
 # Congress Demographics Trends
 
-This repository contains the analysis and data used to reproduce trends in Congress demographics, inspired by FiveThirtyEight's work. The primary goal of this project is to explore generational shifts and trends in congressional representation over time.
+This repository contains the analysis and data (https://data.fivethirtyeight.com/) used to reproduce trends in Congress demographics, inspired by a FiveThirtyEight article (https://fivethirtyeight.com/features/aging- congress-boomers/). The primary goal of this project is to explore generational shifts and trends in congressional representation over time.
 
 ## Table of Contents
 
