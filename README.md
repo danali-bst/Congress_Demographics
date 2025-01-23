@@ -12,7 +12,6 @@ This repository contains the analysis and data (https://data.fivethirtyeight.com
 - [Dependencies](#dependencies)
 - [Data Sources](#data-sources)
 - [Reproducibility](#reproducibility)
-- [License](#license)
 
 ---
 
@@ -35,10 +34,8 @@ congress-demographics
 │   ├── BST270_Congress_Trends_538_Reproduce.Rmd
 ├── output                  # Outputs generated from the analysis
 │   ├── BST270_Congress_Trends_538_Reproduce.pdf
-├── docs                    # Documentation or additional files
 ├── README.md               # This README file
-├── .gitignore              # Git ignore file
-└── LICENSE                 # License for the repository
+
 ```
 
 ## Getting Started
@@ -94,10 +91,6 @@ Alternatively, use the following R command:
 ```R
 rmarkdown::render("analysis/BST270_Congress_Trends_538_Reproduce.Rmd")
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
