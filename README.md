@@ -28,14 +28,14 @@ This project uses R to analyze and visualize data about Congress demographics, i
 
 ```
 congress-demographics
-├── data                    # Raw and processed datasets
+├── analysis                # Analysis files and data
 │   ├── data_aging_congress.csv
 │   ├── updated_largest_generation_data.csv
 │   ├── processed_congress_data_time.csv
+│   ├── BST270_Congress_Trends_538_Reproduce.Rmd
 ├── output                  # Outputs generated from the analysis
 │   ├── BST270_Congress_Trends_538_Reproduce.pdf
 ├── docs                    # Documentation or additional files
-├── BST270_Congress_Trends_538_Reproduce.Rmd # Main R Markdown analysis
 ├── README.md               # This README file
 ├── .gitignore              # Git ignore file
 └── LICENSE                 # License for the repository
@@ -79,20 +79,20 @@ Make sure you have R and RStudio installed on your system. You also need the fol
 - `updated_largest_generation_data.csv`: Updated data for generational analysis.
 - `processed_congress_data_time.csv`: Preprocessed data for time-based analysis.
 
-All data files are stored in the `data` folder.
+All data files are stored in the `analysis` folder.
 
 ## Reproducibility
 
 To reproduce the analysis:
 
-1. Open `BST270_Congress_Trends_538_Reproduce.Rmd` in RStudio.
+1. Open `BST270_Congress_Trends_538_Reproduce.Rmd` in RStudio (located in the `analysis` folder).
 2. Render the file to HTML or PDF using the Knit button.
 3. Outputs will be generated in the `output` folder.
 
 Alternatively, use the following R command:
 
 ```R
-rmarkdown::render("BST270_Congress_Trends_538_Reproduce.Rmd")
+rmarkdown::render("analysis/BST270_Congress_Trends_538_Reproduce.Rmd")
 ```
 
 ## License
@@ -102,4 +102,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Feel free to contribute or raise issues if you encounter any problems!
+
 
