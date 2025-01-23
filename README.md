@@ -58,7 +58,7 @@ Make sure you have R and RStudio installed on your system. You also need the fol
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/congress-demographics.git
+   git clone https://github.com/danali-bst/congress-demographics.git
    ```
 
 2. Navigate to the project directory:
